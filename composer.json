@@ -1,0 +1,30 @@
+{
+    "name"       : "comakai/diagram-bundle",
+    "description": "Doctrine's entity diagram visualization",
+    "keywords"   : ["diagram entities doctrine"],
+    "homepage"   : "https://github.com/comakai/ComakaiDiagramBundle",
+    "license"    : "MIT",
+    "authors     : [
+        {
+            "name" : "Eduardo García Sanz",
+            "email": "eduardo@comakai.com"
+        }
+    ],
+    "require": {
+        "php"                     : ">=5.3.3",
+        "symfony/framework-bundle": "~2.1"
+        "doctrine/orm"            : "~2.2"
+    },
+    "require-dev": {
+        "phpspec/prophecy-phpunit": "~1.0"
+    },
+    "autoload": {
+        "psr-0": { "Comakai\\Bundle\\DiagramBundle": "" }
+    },
+    "target-dir": "Comakai/Bundle/DiagramBundle",
+    "extra"     : {
+        "branch-alias": {
+            "dev-master": "2.1.x-dev"
+        }
+    }
+}
