@@ -4,7 +4,7 @@
     "keywords"   : ["diagram entities doctrine"],
     "homepage"   : "https://github.com/comakai/ComakaiDiagramBundle",
     "license"    : "MIT",
-    "authors     : [
+    "authors"     : [
         {
             "name" : "Eduardo García Sanz",
             "email": "eduardo@comakai.com"
